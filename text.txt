@@ -1,0 +1,53 @@
+git clone https://github.com/Alirezarahnamaa/Pre_assignment
+https://github.com/Alirezarahnamaa/Pre_assignment.git
+
+Git clone link
+New-Item main.py
+git pull
+# make changes
+
+git status      
+“check which new we have and not added”
+
+git add .  
+choose this file for the next save
+
+git commit -m "what you did"
+
+git push 
+upload all changes
+
+Create branch (versions) to not change main code: 
+when:
+•	adding a feature 
+•	fixing a bug 
+•	testing something
+main
+├── feature-login
+├── feature-ui
+ └── bugfix-auth
+
+git branch name 
+example:
+git branch version1
+
+switch from branches or switch to the main code:
+git checkout main
+example:
+	git checkout version1
+	git checkout login
+
+see branches of the project:
+git branch
+example of output:
+* main
+  	version1
+step by step create a branch and commit and push:
+1.	git branch version1
+2.	switch to the branch with git checkout version1
+3.	edit the code and save
+4.	git add. 
+5.	git commit -m  “comment“
+6.	Switch again to the main: git checkout main
+7.	Merge update git merge version1
+8.	Git push
